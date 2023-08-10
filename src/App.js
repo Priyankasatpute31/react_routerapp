@@ -1,9 +1,10 @@
 import logo from './logo.svg';
-import { BrowserRouter, Route, Routes, useNavigate, useSearchParams } from 'react-router-dom';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter, Route, Router, Routes, useNavigate, useSearchParams } from 'react-router-dom';
 import './App.css';
-import AboutUs from './AboutUs';
-import Home from './Home';
-import ContactUs from './ContactUs';
+import AboutUs from './Router/AboutUs';
+import Home from './ImpPrograms/Home';
+import ContactUs from './ImpPrograms/ContactUs';
 import Error from './Error';
 import { useState } from 'react';
 import UseState1  from './HOOKS/Usestate/UseState1';
@@ -17,10 +18,16 @@ import UseHook from './HOOKS/UseRef/useref2';
 import Events from './Events/events';
 import Forms from './forms';
 import Form1 from './ImpPrograms/CreateForm';
+import P1 from './Practice/P1';
+import UseEffect2 from './HOOKS/UseEffect/useEffect2';
+import BootstrapPract1 from './Practice/Boostrapprct1';
+import Router1 from './Router/Router';
+import PokemonFun1 from './ReactPokemonAPI/Pockemon1';
+
 function App() {
 
   return <>
-  <Form1/></>
+  <PokemonFun1/></>
 }
 
 

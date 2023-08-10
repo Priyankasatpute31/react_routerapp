@@ -1,6 +1,6 @@
 import react from "react";
 import { NavLink } from "react-router-dom";
-import Component from "./Component";
+import Component from "../Router/Component";
 import { useNavigate } from "react-router-dom";
 
 const ContactUs=()=>{

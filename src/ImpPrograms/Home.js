@@ -1,5 +1,5 @@
 import react from "react";
-import Component from "./Component";
+import Component from "../Router/Component";
 import { Outlet } from "react-router-dom";
 
 
