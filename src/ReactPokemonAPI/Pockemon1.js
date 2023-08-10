@@ -13,7 +13,7 @@ const PokemonFun1=()=>{
        // 12345
        //6789
        //abcd
-       //xyz
+       
 
     }
         getData();
