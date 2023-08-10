@@ -11,6 +11,8 @@ const PokemonFun1=()=>{
             setname(res.data.results[`${num}`].name)
         
        // 12345
+       //6789
+       //101112
     }
         getData();
         
