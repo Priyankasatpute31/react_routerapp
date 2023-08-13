@@ -23,11 +23,14 @@ import UseEffect2 from './HOOKS/UseEffect/useEffect2';
 import BootstrapPract1 from './Practice/Boostrapprct1';
 import Router1 from './Router/Router';
 import PokemonFun1 from './ReactPokemonAPI/Pockemon1';
+import Pobj1 from './Promises/Promise2';
+import GetRollNo from './Promises/Callback';
+import GetData from './Promises/AsyncAwait';
 
 function App() {
 
   return <>
-  <PokemonFun1/></>
+  <BootstrapPract1/></>
 }
 
 

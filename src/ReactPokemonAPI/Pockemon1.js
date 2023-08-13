@@ -8,14 +8,7 @@ const PokemonFun1=()=>{
         async function getData(){
             const res=await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=${num}`);
             console.log(res);
-            setname(res.data.results[`${num}`].name)
-        
-       // 12345
-       //6789
-       //abcd
-       
-
-    }
+            setname(res.data.results[`${num}`].name) }
         getData();
         
     })
