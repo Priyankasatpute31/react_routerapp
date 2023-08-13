@@ -8,7 +8,17 @@ const PokemonFun1=()=>{
         async function getData(){
             const res=await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=${num}`);
             console.log(res);
+<<<<<<< Updated upstream
             setname(res.data.results[`${num}`].name) }
+=======
+            setname(res.data.results[`${num}`].name)
+        
+       // 12345
+       //6789
+       
+
+    }
+>>>>>>> Stashed changes
         getData();
         
     })
